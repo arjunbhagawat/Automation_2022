@@ -20,6 +20,7 @@ public class Listbox1 {
 		driver.findElement(By.xpath("//a[text()='Create New Account']")).click();
 		Thread.sleep(2000);
 		
+		
 		//step 1
 		WebElement month = driver.findElement(By.xpath("//select[@id='month']"));
 		
@@ -32,6 +33,7 @@ public class Listbox1 {
 		//s.selectByVisibleText("Aug");
 		
 		s.selectByValue("6");
+		
 		
 		
 		
